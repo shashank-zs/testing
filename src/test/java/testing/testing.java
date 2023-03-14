@@ -8,6 +8,6 @@ public class testing {
     public static void main(){
         System.out.println("shashank");
         String shan ="shan1";
-        Assert.assertEquals(shan,"shan1");
+        Assert.assertEquals(shan,"sha");
     }
 }
