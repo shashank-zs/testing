@@ -40,6 +40,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Test with Maven
-        run: mvn clean test -U -Pttt
+        run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
 
 
