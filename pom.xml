@@ -10,15 +10,6 @@
     <maven.compiler.source>19</maven.compiler.source>
     <maven.compiler.target>19</maven.compiler.target>
   </properties>
-  <dependencies>
-  <dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>7.6.1</version>
-    <scope>compile</scope>
-  </dependency>
-
-</dependencies>
   <profiles>
     <profile>
       <id>ttt</id>
@@ -38,4 +29,14 @@
       </build>
     </profile>
   </profiles>
+  <dependencies>
+  <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.6.1</version>
+    <scope>compile</scope>
+  </dependency>
+
+</dependencies>
+
 </project>
