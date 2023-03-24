@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="760acf4b-5052-44ad-826e-837a0d244c01" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="760acf4b-5052-44ad-826e-837a0d244c01" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,11 +46,28 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG./Users/raramuri/IdeaProjects/testing/src/test/resources/testng.xml">
+  <component name="RunManager" selected="TestNG.testing">
     <configuration name="/Users/raramuri/IdeaProjects/testing/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testing" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
       <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testing" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="testing" />
+      <option name="MAIN_CLASS_NAME" value="testing.testing" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -79,8 +94,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/raramuri/IdeaProjects/testing/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.testing" />
         <item itemvalue="TestNG.testing.main" />
+        <item itemvalue="TestNG./Users/raramuri/IdeaProjects/testing/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
   </component>
