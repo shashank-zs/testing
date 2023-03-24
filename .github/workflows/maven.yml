@@ -37,5 +37,5 @@ jobs:
         with:
           java-version: '19'
       - name: Test with Maven
-        run: mvn test -Dsurefire.suiteXmlFiles=./src/test/resources/testng.xml
+        run: mvn test -Dsurefire.suiteXmlFiles=src/test/resources/testng.xml
 
